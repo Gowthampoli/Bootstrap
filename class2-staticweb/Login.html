@@ -7,10 +7,10 @@
     <body>
         
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
-            <li><a href="index.html" class="navbar-brand">Logo</a>
+            <a href="index.html" class="navbar-brand">Logo</a>
             <div class="ml-auto">
                 <ul class="navbar-nav">
-                    <li><a href="index.html" class="nav-link">Home</a>
+                    <li><a href="index.html" class="nav-link">Home</a></li>
                     <li><a href="about.html" class="nav-link">About</a></li>
                     <li><a href="services.html" class="nav-link">Services</a></li>
                     <li><a href="empoloyees.html"class="nav-link">Employees</a></li>
@@ -23,5 +23,34 @@
         <div>
             <h3>Home Page</h3>
         </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <form action="Login.html">
+                        <div class="form-group">
+                            <label>Email ID</label>
+                            <input type="text" class="form-control" required />
+                        </div>
+                        <div class="form-group">
+                            <label>Password</label>
+                            <input type="password" class="form-control" required />
+                        </div>
+                            <input type="submit" value="Login" class="btn btn-warning" />
+                    </form>
+                </div>
+                <div class="col-4">
+                    <form action="Login.html">
+                        <div class="form-group">
+                            <input placeholder="Email ID" type="text" class="form-control" required />
+                        </div>
+                        <div class="form-group">
+                            <input placeholder="password" type="password" class="form-control" required />
+                        </div>
+                            <input type="submit" value="Login" class="btn btn-warning" />
+                    </form>
+                </div>
+            </div>
+        </div>
+
     </body>
 </html>

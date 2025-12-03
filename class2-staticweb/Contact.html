@@ -38,33 +38,41 @@
         <div class="container">
             <div class="row">
                 <div class="col-6">
-                    <h2>Send us an Email <small>:::::::::::::::::::::::::::::::::::::</small></h2>
                     <form action="./Contact.html">
+
                         <div class="container">
-                            <div class="row" >
-                                <div class="col-3.5" style="margin-right: 13; margin-bottom: 25;">
-                                    <label for="fname">Name <small>*</small></label><br>
-                                    <input type="text" style="width: 4cm;" required />
-                                </div><br>
-                                <div class="col-4" style="margin-right: 13; margin-bottom: 25;">
-                                    <label for="email">Email <small>*</small></label><br>
-                                    <input type="email" style="width: 4.5cm;" required />
-                                </div><br>
-                                <div class="col-3">
-                                    <label for="phone">Phone</label><br>
-                                    <input type="number" style="width: 3cm;" />
-                                </div><br>
+                            <div class="form-group">
+                                <h3>Send us an Email</h3>
                             </div>
                         </div>
+                    
+                        <div class="container">
+                            <div class="row" >
+                                <div class="col-4 form-group" >
+                                    <label for="fname">NAME <small>*</small></label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="col-4 form-group" >
+                                    <label for="email">EMAIL <small>*</small></label>
+                                    <input type="email" class="form-control" />
+                                </div>
+                                <div class="col-4 form-group">
+                                    <label for="phone">PHONE</label>
+                                    <input type="number" class="form-control" />
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="container">
                             <div class="row">
-                                <div class="col-6.5">
-                                    <label for="subject">Subject <small>*</small></label><br>
-                                    <input type="text" style="width: 7cm;" required />
+                                <div class="col-8 form-group">
+                                    <label>SUBJECT <small>*</small></label><br>
+                                    <input type="text" class="form-control" />
                                 </div>
-                                <div class="col-6">
-                                    <label for="">Serivces</label><br>
-                                    <select>
+                                <div class="col-4 form-group">
+                                    <label>SERVICES</label><br>
+                                    <select class="form-control">
+                                        <option>--Select One--</option>
                                         <option>Mobile Apps Development</option>
                                         <option>Web Development</option>
                                         <option>Digital Marketing</option>
@@ -76,15 +84,17 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="container">
                             <div class="row">
-                                <div class="col-12.5">
-                                    <label for="message">Message <small>*</small></label><br>
-                                    <textarea rows="4" cols="65" required></textarea><br><br>
-                                    <input type="submit" value="Submit Comment" class="bg-warning text-white" />
+                                <div class="col-12 form-group">
+                                    <label for="message">MESSAGE <small>*</small></label>
+                                    <textarea rows="4" class="form-control"></textarea><br>
+                                    <input type="submit" value="Submit Comment" class="text-white btn btn-warning" />
                                 </div>
                             </div>
                         </div>
+
                     </form>                    
                 </div>
 
@@ -93,6 +103,7 @@
                 </div>
             </div>
         </div><br><br>
+        
         <div class="container">
             <center>
             <div class="row">
@@ -120,5 +131,6 @@
             </div>
             </center>
         </div>
+        
     </body>
 </html>
